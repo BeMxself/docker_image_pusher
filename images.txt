@@ -8,4 +8,7 @@ alpine/socat
 
 
 # 支持指定架构
---platform=linux/amd64,linux/arm64/v8,linux/arm64
+--platform=linux/amd64,linux/arm64 alpine/socat
+--platform=linux/amd64,linux/arm64 openjdk:8-jre-slim
+--platform=linux/amd64,linux/arm64 rabbitmq:3-management
+--platform=linux/amd64,linux/arm64/v8 mysql/mysql-server:8.0
