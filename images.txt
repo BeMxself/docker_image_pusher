@@ -8,4 +8,4 @@ alpine/socat
 
 
 # 支持指定架构
---platform=linux/amd64,linux/arm64/v8
+--platform=linux/amd64,linux/arm64/v8,,linux/arm64
