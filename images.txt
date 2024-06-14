@@ -4,7 +4,7 @@ openjdk:8-jre-slim
 # 中间件、数据库
 mysql/mysql-server:8.0
 rabbitmq:3-management
-bobrik/socat
+alpine/socat
 
 
 # 支持指定架构
