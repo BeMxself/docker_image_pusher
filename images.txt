@@ -4,11 +4,11 @@
 # 中间件、数据库
 # mysql/mysql-server:8.0
 # rabbitmq:3-management
-# alpine/socat
+# alpine/socat:latest
 
 
 # 支持指定架构
---platform=linux/arm64 alpine/socat
+--platform=linux/arm64 alpine/socat:latest
 --platform=linux/arm64 openjdk:8-jre-slim
 --platform=linux/arm64 rabbitmq:3-management
 --platform=linux/arm64/v8 mysql/mysql-server:8.0
