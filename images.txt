@@ -1,10 +1,10 @@
 # jdk
-# openjdk:8-jre-slim
+openjdk:8-jre-slim
 
 # 中间件、数据库
-# mysql/mysql-server:8.0
-# rabbitmq:3-management
-# alpine/socat:latest
+mysql/mysql-server:8.0
+rabbitmq:3-management
+alpine/socat:latest
 
 
 # 支持指定架构
